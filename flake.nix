@@ -70,6 +70,9 @@
 
                     # LaTeX
                     texliveFull
+
+                    # Other
+                    python3
                 ];
                 shellHook = ''
                     export CXX=/usr/bin/c++
@@ -142,8 +145,10 @@
                      # LaTeX
                     texliveFull
 
+                    # Other
                     firefox
                     gcc
+                    python3
                 ];
                 shellHook = ''
                     export CHISEL_FIRTOOL_PATH="${pkgs.circt}/bin"
